@@ -1,0 +1,139 @@
+.wrapper {
+  width: 100%;
+  background-color: #fafafafa;
+}
+
+.wrapper .container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+
+@media (min-width: 992px) {
+  .wrapper .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.wrapper .content-item {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .wrapper .content-item {
+    width: 50%;
+  }
+}
+
+.wrapper .image {
+  display: block;
+  max-width: 50%;
+  margin: 0px auto;
+}
+
+.wrapper .text {
+  padding: 50px;
+}
+
+.wrapper .text .heading {
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.vision .container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+
+@media (min-width: 992px) {
+  .vision .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .vision .content {
+    flex-direction: row-reverse;
+  }
+}
+.vision .content-item {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .vision .content-item {
+    width: 50%;
+  }
+}
+
+.vision .image {
+  display: block;
+  max-width: 50%;
+  margin: 0px auto;
+}
+
+.vision .text {
+  padding: 50px;
+}
+
+.vision .text .heading {
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.about .container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+
+.about .text .heading {
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .about .content .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.about .content .list-item {
+  margin: 50px 0px;
+  padding: 0px 50px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .about .content .list-item {
+    margin: 0px;
+    width: calc(100% / 3);
+  }
+}
+
+.about .content .list-item .image {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0px auto 20px auto;
+  border-radius: 100%;
+}
+
+.about .content .list-item .text {
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  color: #666666;
+}
